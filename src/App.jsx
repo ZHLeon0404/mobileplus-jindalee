@@ -392,7 +392,7 @@ export default function PhoneRepairWebsite() {
         </div>
 
         <div className="mx-auto mt-10 max-w-7xl border-t border-neutral-800 pt-5 text-center text-sm text-neutral-400">
-          © 2026 MobilePluus. All rights reserved.
+          © 2026 MobilePlus. All rights reserved.
         </div>
       </footer>
     </div>
