@@ -385,7 +385,7 @@ export default function PhoneRepairWebsite() {
             <h4 className="font-extrabold">Contact Us</h4>
             <div className="mt-5 space-y-4 text-neutral-300">
               <p className="flex gap-3"><span>📞</span> (07) 3844 2918</p>
-              <p className="flex gap-3"><span>✉️</span> mobileplusdfo@gmail.com</p>
+              <p className="flex gap-3"><span>✉️</span> topcenq@gmail.com</p>
               <p className="flex gap-3"><span>📍</span> 16 Amazons Pl,<br />Jindalee QLD 4074</p>
             </div>
           </div>
