@@ -371,17 +371,6 @@ export default function PhoneRepairWebsite() {
           </div>
 
           <div>
-            <h4 className="font-extrabold">Quick Links</h4>
-            <div className="mt-5 space-y-3 text-neutral-300">
-              <p>Home</p>
-              <p>Repairs</p>
-              <p>Accessories</p>
-              <p>About Us</p>
-              <p>Contact</p>
-            </div>
-          </div>
-
-          <div>
             <h4 className="font-extrabold">Services</h4>
             <div className="mt-5 space-y-3 text-neutral-300">
               <p>Screen Replacement</p>
