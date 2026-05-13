@@ -139,11 +139,6 @@ export default function PhoneRepairWebsite() {
               Mobile Phone Repair Shop
             </p>
           </div>
-
-
-          <button className="w-full rounded-md bg-red-600 px-6 py-3 text-sm font-bold text-white shadow-lg hover:bg-red-700 sm:w-auto">
-            CONTACT US
-          </button>
         </div>
       </header>
 
