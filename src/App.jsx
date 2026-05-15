@@ -110,7 +110,7 @@ export default function PhoneRepairWebsite() {
         EMAILJS_PUBLIC_KEY
       );
 
-      alert('Booking submitted successfully! We will contact you soon.');
+      alert('Quote request submitted successfully! We will contact you soon.');
       setName('');
       setPhone('');
       setEmail('');
@@ -122,7 +122,7 @@ export default function PhoneRepairWebsite() {
       setTime('');
     } catch (error) {
       console.error('EmailJS error:', error);
-      alert('Failed to submit booking. Please try again or call us directly.');
+      alert('Failed to quote request. Please try again or call us directly.');
     } finally {
       setIsSubmitting(false);
     }
@@ -315,7 +315,7 @@ export default function PhoneRepairWebsite() {
               className="flex w-full items-center justify-center gap-3 rounded-md bg-red-600 px-6 py-4 text-lg font-extrabold text-white shadow-lg hover:bg-red-700 disabled:cursor-not-allowed disabled:bg-neutral-400"
             >
               <span>📅</span>
-              {isSubmitting ? 'Submitting...' : 'Submit Booking'}
+              {isSubmitting ? 'Submitting...' : 'Get a Quote'}
             </button>
           </form>
         </section>
