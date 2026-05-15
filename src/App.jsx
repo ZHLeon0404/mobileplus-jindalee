@@ -30,6 +30,7 @@ const deviceModels = {
     'Google Pixel 7 Pro', 'Google Pixel 7',
     'Google Pixel 6 Pro', 'Google Pixel 6', 'Google Pixel Fold',
   ],
+   Other: ['Please type your model'],
 };
 
 const issueOptions = [
@@ -212,17 +213,28 @@ export default function PhoneRepairWebsite() {
 
                 <div>
                   <label className="mb-2 block font-bold">Model *</label>
-                  <select
-                    className="w-full rounded-md border border-neutral-300 px-4 py-3 outline-none focus:border-red-500 disabled:bg-neutral-100"
-                    value={model}
-                    onChange={(event) => setModel(event.target.value)}
-                    disabled={!brand}
-                  >
-                    <option value="">Select Model</option>
-                    {models.map((item) => (
-                      <option key={item} value={item}>{item}</option>
-                    ))}
-                  </select>
+
+                  {brand === 'Other' ? (
+                    <input
+                      type="text"
+                      className="w-full rounded-md border border-neutral-300 px-4 py-3 outline-none focus:border-red-500"
+                      placeholder="Enter your device brand and model"
+                      value={model}
+                      onChange={(event) => setModel(event.target.value)}
+                    />
+                  ) : (
+                    <select
+                      className="w-full rounded-md border border-neutral-300 px-4 py-3 outline-none focus:border-red-500 disabled:bg-neutral-100"
+                      value={model}
+                      onChange={(event) => setModel(event.target.value)}
+                      disabled={!brand}
+                    >
+                      <option value="">Select Model</option>
+                      {models.map((item) => (
+                        <option key={item} value={item}>{item}</option>
+                      ))}
+                    </select>
+                  )}
                 </div>
               </div>
             </div>
