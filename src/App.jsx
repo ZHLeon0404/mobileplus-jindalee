@@ -363,6 +363,7 @@ export default function PhoneRepairWebsite() {
             <p className="mt-4 max-w-64 leading-7 text-neutral-300">
               Professional mobile phone repair services in Brisbane with expert technicians and quality parts.
             </p>
+          </div>
 
           <div>
             <h4 className="font-extrabold">Services</h4>
