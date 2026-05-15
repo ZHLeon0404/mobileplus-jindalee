@@ -342,19 +342,6 @@ export default function PhoneRepairWebsite() {
 
           <div className="my-7 h-px bg-neutral-200" />
 
-          <div className="space-y-5 text-sm">
-            <div className="flex justify-between">
-              <span className="text-neutral-600">Estimated Time</span>
-              <span className="font-semibold">—</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-neutral-600">Estimated Cost</span>
-              <span className="font-semibold">—</span>
-            </div>
-          </div>
-
-          <div className="my-7 h-px bg-neutral-200" />
-
           <div className="flex gap-4">
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-red-100 text-red-600">
               <span>🛡️</span>
