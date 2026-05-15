@@ -208,6 +208,7 @@ export default function PhoneRepairWebsite() {
                     <option value="iPhone">iPhone</option>
                     <option value="Samsung">Samsung</option>
                     <option value="Google Pixel">Google Pixel</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
 
